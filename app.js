@@ -35,6 +35,7 @@ let date = new Date(tempYear, tempMonth, tempDay + 5, 19, 30, 0);
 
 const year = date.getFullYear();
 const hours = date.getHours();
+d;
 const minutes = date.getMinutes();
 const month = months[date.getMonth()];
 const day = weekdays[date.getDay()];
